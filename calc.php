@@ -1,5 +1,6 @@
 <?php
 class calc {
+    //Рперации над переменными
     function getResult(){
         if(isset($_POST['operation'])){
             $operation = $_POST['operation'];
